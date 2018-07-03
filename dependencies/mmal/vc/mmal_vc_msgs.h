@@ -33,8 +33,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   * Private message definitions, defining the message API between
   * the host and VideoCore.
   */
-#include "interface/vcos/vcos.h"
-#include "interface/mmal/mmal.h"
+#include <vcos.h>
+#include "../mmal.h"
 #include "mmal_vc_api.h"
 
 #define MMAL_CONTROL_FOURCC() VCHIQ_MAKE_FOURCC('m','m','a','l')
