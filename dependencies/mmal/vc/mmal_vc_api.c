@@ -25,18 +25,18 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include "interface/mmal/mmal_logging.h"
-#include "interface/mmal/mmal.h"
+#include "../mmal_logging.h"
+#include "../mmal.h"
 #include "mmal_vc_api.h"
 #include "mmal_vc_msgs.h"
 #include "mmal_vc_client_priv.h"
 #include "mmal_vc_opaque_alloc.h"
 #include "mmal_vc_shm.h"
-#include "interface/mmal/util/mmal_util.h"
-#include "interface/mmal/core/mmal_component_private.h"
-#include "interface/mmal/core/mmal_port_private.h"
-#include "interface/mmal/core/mmal_buffer_private.h"
-#include "interface/vcos/vcos.h"
+#include "../util/mmal_util.h"
+#include "../core/mmal_component_private.h"
+#include "../core/mmal_port_private.h"
+#include "../core/mmal_buffer_private.h"
+#include "../../vcos/vcos.h"
 
 /** Private information for MMAL VC components
  */

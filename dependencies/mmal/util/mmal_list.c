@@ -25,8 +25,8 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include "interface/vcos/vcos.h"
-#include "interface/mmal/util/mmal_list.h"
+#include "../../vcos/vcos.h"
+#include "../util/mmal_list.h"
 
 
 /* Private list context */

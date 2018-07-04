@@ -24,11 +24,11 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-#include "interface/mmal/mmal_logging.h"
-#include "interface/mmal/mmal.h"
-#include "interface/vcos/vcos.h"
+#include "../mmal_logging.h"
+#include "../mmal.h"
+#include "../../vcos/vcos.h"
 
-#include "interface/mmal/vc/mmal_vc_shm.h"
+#include "mmal_vc_shm.h"
 
 #ifdef ENABLE_MMAL_VCSM
 # include "user-vcsm.h"

@@ -30,16 +30,16 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "mmal_vc_msgs.h"
 #include "mmal_vc_api.h"
 #include "mmal_vc_client_priv.h"
-#include "interface/vcos/vcos.h"
+#include "../../vcos/vcos.h"
 #include "vchiq_util.h"
-#include "interface/mmal/core/mmal_buffer_private.h"
-#include "interface/mmal/core/mmal_component_private.h"
-#include "interface/mmal/core/mmal_port_private.h"
-#include "interface/mmal/util/mmal_list.h"
-#include "interface/mmal/util/mmal_util.h"
+#include "../core/mmal_buffer_private.h"
+#include "../core/mmal_component_private.h"
+#include "../core/mmal_port_private.h"
+#include "../util/mmal_list.h"
+#include "../util/mmal_util.h"
 
 #define VCOS_LOG_CATEGORY (&mmal_ipc_log_category)
-#include "interface/mmal/mmal_logging.h"
+#include "../mmal_logging.h"
 
 #include <stdio.h>
 

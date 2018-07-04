@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
 #include "mmal_common.h"
-#include "interface/vcos/vcos_logging.h"
+#include "../../vcos/vcos_logging.h"
 
 #define VCOS_LOG_CATEGORY (&mmalomx_log_category)
 extern VCOS_LOG_CAT_T mmalomx_log_category;

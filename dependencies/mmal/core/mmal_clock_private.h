@@ -28,8 +28,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef MMAL_CLOCK_PRIVATE_H
 #define MMAL_CLOCK_PRIVATE_H
 
-#include "interface/mmal/mmal.h"
-#include "interface/mmal/mmal_clock.h"
+#include "../mmal.h"
+#include "../mmal_clock.h"
 
 #ifdef __cplusplus
 extern "C" {

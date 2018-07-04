@@ -29,10 +29,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "util/mmal_util.h"
 #include "core/mmal_component_private.h"
 #include "core/mmal_port_private.h"
-#include "interface/vcos/vcos.h"
+#include "../vcos/vcos.h"
 #include "mmal_logging.h"
-#include "interface/mmal/util/mmal_util.h"
-#include "interface/mmal/mmal_parameters.h"
+#include "util/mmal_util.h"
+#include "mmal_parameters.h"
 #include <stdio.h>
 
 #ifdef _VIDEOCORE

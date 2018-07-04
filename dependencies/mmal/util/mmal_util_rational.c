@@ -26,7 +26,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
 #include <limits.h>
-#include "interface/mmal/util/mmal_util_rational.h"
+#include "mmal_util_rational.h"
 
 #define Q16_ONE   (1 << 16)
 

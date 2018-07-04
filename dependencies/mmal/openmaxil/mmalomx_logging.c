@@ -33,7 +33,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "mmalomx_logging.h"
 #include "mmalomx.h"
 #include "mmalomx_util_params.h"
-#include "interface/vcos/vcos_types.h"
+#include "../../vcos/vcos_types.h"
 
 VCOS_LOG_CAT_T mmalomx_log_category;
 static VCOS_LOG_LEVEL_T mmalomx_log_level = VCOS_LOG_ERROR;

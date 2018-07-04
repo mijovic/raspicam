@@ -28,7 +28,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef MMAL_VC_MSGNAMES_H
 #define MMAL_VC_MSGNAMES_H
 
-#include "interface/vcos/vcos.h"
+#include "../../vcos/vcos.h"
 
 /** Convert a message id to a name.
   */

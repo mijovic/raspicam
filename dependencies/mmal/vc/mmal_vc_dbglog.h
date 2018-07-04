@@ -31,7 +31,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef MMAL_VC_DBGLOG_H
 #define MMAL_VC_DBGLOG_H
 
-#include "interface/mmal/mmal.h"
+#include "../mmal.h"
 #include "mmal_vc_msgs.h"
 
 /* Debug log for MMAL messages going past */

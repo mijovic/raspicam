@@ -30,7 +30,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 #include <stdint.h>
-#include "interface/mmal/mmal.h"
+#include "../mmal.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -25,8 +25,8 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#include "interface/mmal/mmal.h"
-#include "interface/mmal/util/mmal_util.h"
+#include "../mmal.h"
+#include "../util/mmal_util.h"
 #include "mmal_vc_api.h"
 #include <stdio.h>
 #include <stddef.h>

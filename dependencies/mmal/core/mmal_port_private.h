@@ -28,9 +28,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef MMAL_PORT_PRIVATE_H
 #define MMAL_PORT_PRIVATE_H
 
-#include "interface/mmal/mmal.h"
-#include "interface/mmal/mmal_clock.h"
-#include "interface/mmal/core/mmal_events_private.h"
+#include "../mmal.h"
+#include "../mmal_clock.h"
+#include "mmal_events_private.h"
 
 #ifdef __cplusplus
 extern "C" {
